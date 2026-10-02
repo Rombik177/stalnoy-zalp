@@ -1,0 +1,164 @@
+{
+ "opisanie": "Пролог: картины с параллаксом. Слои одного размера 1600x900 рисуются снизу вверх: dal, sred, pered. Каждый слой увеличить в masshtab раз от центра и сдвигать по x от -sdvig_px до +sdvig_px (napravlenie — знак) за время картины; запаса масштаба хватает на сдвиг до 32 px без пустых краёв.",
+ "razmer": [
+  1600,
+  900
+ ],
+ "masshtab": 1.04,
+ "kartiny": [
+  {
+   "n": 1,
+   "celaya": "img/prolog/01.jpg",
+   "dal": "img/prolog/01/dal.jpg",
+   "sred": "img/prolog/01/sred.png",
+   "pered": "img/prolog/01/pered.png",
+   "sdvig_px": {
+    "dal": 5,
+    "sred": 14,
+    "pered": 30
+   },
+   "napravlenie": 1,
+   "fokus": [
+    800,
+    380
+   ],
+   "istochnik": "img/prolog/prolog_1.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "У моря стоит Город Пяти Бухт: пять бухт, пять капитанов и один общий маяк."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "celaya": "img/prolog/02.jpg",
+   "dal": "img/prolog/02/dal.jpg",
+   "sred": "img/prolog/02/sred.png",
+   "pered": "img/prolog/02/pered.png",
+   "sdvig_px": {
+    "dal": 5,
+    "sred": 14,
+    "pered": 30
+   },
+   "napravlenie": -1,
+   "fokus": [
+    800,
+    470
+   ],
+   "istochnik": "img/prolog/02.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "Летом здесь проходит Кубок Красок: капитаны забрасывают друг друга краской, а весь город болеет за своих."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "celaya": "img/prolog/03.jpg",
+   "dal": "img/prolog/03/dal.jpg",
+   "sred": "img/prolog/03/sred.png",
+   "pered": "img/prolog/03/pered.png",
+   "sdvig_px": {
+    "dal": 5,
+    "sred": 14,
+    "pered": 30
+   },
+   "napravlenie": 1,
+   "fokus": [
+    820,
+    330
+   ],
+   "istochnik": "img/prolog/03.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "Цвет победителя целый год горит на маяке. В него же красят крыши, лодки и флаги."
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "celaya": "img/prolog/04.jpg",
+   "dal": "img/prolog/04/dal.jpg",
+   "sred": "img/prolog/04/sred.png",
+   "pered": "img/prolog/04/pered.png",
+   "sdvig_px": {
+    "dal": 5,
+    "sred": 14,
+    "pered": 30
+   },
+   "napravlenie": -1,
+   "fokus": [
+    800,
+    380
+   ],
+   "istochnik": "img/prolog/04.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "Но вот уже десять лет подряд Кубок выигрывает Адмирал Сталь."
+    },
+    {
+     "kto": "rasskazchik",
+     "tekst": "С тех пор в городе всё серое: маяк, крыши, лодки. Даже чайки посерели.",
+     "serye_chajki": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "celaya": "img/prolog/05.jpg",
+   "dal": "img/prolog/05/dal.jpg",
+   "sred": "img/prolog/05/sred.png",
+   "pered": "img/prolog/05/pered.png",
+   "sdvig_px": {
+    "dal": 5,
+    "sred": 14,
+    "pered": 30
+   },
+   "napravlenie": 1,
+   "fokus": [
+    800,
+    400
+   ],
+   "istochnik": "img/prolog/05.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "Адмирал никому не уступает. Его серый флагман, как часовой, стоит у самого маяка."
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "celaya": "img/prolog/06.jpg",
+   "dal": "img/prolog/06/dal.jpg",
+   "sred": "img/prolog/06/sred.png",
+   "pered": "img/prolog/06/pered.png",
+   "sdvig_px": {
+    "dal": 4,
+    "sred": 12,
+    "pered": 18
+   },
+   "napravlenie": -1,
+   "fokus": [
+    900,
+    520
+   ],
+   "istochnik": "img/prolog/prolog_4.jpg",
+   "kadry": [
+    {
+     "kto": "rasskazchik",
+     "tekst": "И вот этим летом в гавань заходит старый флагман — с новым капитаном и очень серьёзным котом."
+    },
+    {
+     "kto": "rumb",
+     "tekst": "Мур. Капитан, по-моему, этому городу нужны новые краски.",
+     "emociya": "spokoen"
+    }
+   ]
+  }
+ ]
+}

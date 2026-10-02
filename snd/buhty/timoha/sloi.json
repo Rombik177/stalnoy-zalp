@@ -1,0 +1,59 @@
+{
+ "voda": {
+  "gromkost_db": -8.0,
+  "rol": "vtorostepennyy",
+  "sluchaynye_vkrapleniya": false,
+  "fayl": "voda.ogg",
+  "dlina_s": 47.0,
+  "vhod_s": 2.0
+ },
+ "port": {
+  "gromkost_db": -9,
+  "rol": "vtorostepennyy",
+  "sluchaynye_vkrapleniya": false,
+  "fayl": "port.ogg",
+  "dlina_s": 41.0,
+  "vhod_s": 2.0
+ },
+ "golosa": {
+  "gromkost_db": -16,
+  "rol": "vtorostepennyy",
+  "sluchaynye_vkrapleniya": false,
+  "fayl": "golosa.ogg",
+  "dlina_s": 38.0,
+  "vhod_s": 2.0
+ },
+ "kolokol": {
+  "gromkost_db": -13,
+  "rol": "vtorostepennyy",
+  "sluchaynye_vkrapleniya": false,
+  "fayl": "kolokol.ogg",
+  "dlina_s": 59.0,
+  "vhod_s": 2.0
+ },
+ "chayka": {
+  "gromkost_db": -22.0,
+  "rol": "vtorostepennyy",
+  "sluchaynye_vkrapleniya": true,
+  "fayly": [
+   "chayka_1.wav",
+   "chayka_2.wav",
+   "chayka_3.wav",
+   "chayka_4.wav",
+   "chayka_5.wav"
+  ],
+  "pauza_s": [
+   3,
+   10
+  ],
+  "razbros_db": [
+   -4,
+   0
+  ],
+  "panorama": [
+   -0.6,
+   0.6
+  ],
+  "bez_povtora_podryad": true
+ }
+}

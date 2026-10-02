@@ -1,0 +1,22 @@
+{
+ "malchishka": {
+  "rost_px": 20,
+  "skorost_px_s": 42.0,
+  "fps": 12
+ },
+ "rybak": {
+  "rost_px": 24,
+  "skorost_px_s": 0.0,
+  "fps": 6
+ },
+ "prohozhiy1": {
+  "rost_px": 22,
+  "skorost_px_s": 13.8,
+  "fps": 7
+ },
+ "prohozhiy2": {
+  "rost_px": 21,
+  "skorost_px_s": 16.4,
+  "fps": 8
+ }
+}
